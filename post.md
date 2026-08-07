@@ -1200,9 +1200,9 @@ acceso siguen comunicándose entre sí.
       ▼
    ALIMENTO ENTREGADO
    (no vendido — es derecho, no mercancía)
+```
 
-
-
+```
 ### A.4 Integración inicial con World Mobile
 
 
