@@ -22,7 +22,7 @@ eating healthily costs $4.28. Those just above the poverty line cannot afford to
 The Paradox
 
 The world grows 5,935 kilocalories per person per day of directly edible food. Only 2,531 reach people's mouths.
-
+------------------------------------------------------------
 |--------------------------------------|-------------------|
 |Harvest and soil                      |      −338 kcal    |
 |Post-harvest                          |      −332 kcal    |
@@ -37,7 +37,7 @@ The world grows 5,935 kilocalories per person per day of directly edible food. O
 |Real surplus                          |   178 kcal — 8%   |
 |--------------------------------------|-------------------|
 
-```
+
 Source: Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food production is 
 sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. Elementa: 
 Science of the Anthropocene, https://doi.org/10.1525/elementa.310
