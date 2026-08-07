@@ -22,7 +22,7 @@ eating healthily costs $4.28. Those just above the poverty line cannot afford to
 The Paradox
 
 The world grows 5,935 kilocalories per person per day of directly edible food. Only 2,531 reach people's mouths.
-
+```
 -------------------------------------------------------------------
 Harvest and soil                             −338 kcal
 Post-harvest                                 −332 kcal
@@ -36,6 +36,7 @@ Effectively eaten                           2,531 kcal
 Average requirement                         2,353 kcal
 Real surplus                                178 kcal — 8%
 -------------------------------------------------------------------
+```
 Source: Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food production is 
 sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. Elementa: 
 Science of the Anthropocene, https://doi.org/10.1525/elementa.310
@@ -53,7 +54,7 @@ The cost is not only human: livestock occupies 77% of agricultural land, provide
 and generates 14.5% of global emissions. Feeding without destroying the planet requires better coordination of
 what already exists, not producing more. Adamas is that coordination infrastructure.
 
-### The Thesis
+#### The Thesis
 
 The problem is not production but destination, distribution, and price.
 
@@ -82,9 +83,9 @@ operates without depending on commercial internet.
 .
 
 
-## 1. Project Description
+### 1. Project Description
 
-## 1.1 Vision and Mission
+#### 1.1 Vision and Mission
 
 Vision: a world where access to food and basic resources depends not on market price but on community agreement 
 and real production.
@@ -92,8 +93,8 @@ and real production.
 Mission: to build the coordination infrastructure that enables communities to self-manage their economy and 
 governance, without intermediaries or dependence on external infrastructure.
 
-## 1.2 General Architecture
-
+#### 1.2 General Architecture
+```
 ┌─────────────────────────────────────────────────────────┐
 │  APPLICATION — interfaces, forums, social network,      │
 │                translator                               │
@@ -115,7 +116,7 @@ governance, without intermediaries or dependence on external infrastructure.
 ├─────────────────────────────────────────────────────────┤
 │  HARDWARE — nodes, antennas, panels, batteries          │
 └─────────────────────────────────────────────────────────┘
-
+```
 Governance layer. Community assemblies of around 150 people. Asymmetric double threshold. Deliberative panels 
 by stratified sortition. Agenda determined by four channels with pure sortition in each.
 
@@ -132,9 +133,9 @@ self-healing mesh routing. Community supernodes as soft hierarchy — accelerato
 .
 
 
-## 2. PROBLEM AND SOLUTION
+### 2. PROBLEM AND SOLUTION
 
-## 2.1 The Global Food Flow
+#### 2.1 The Global Food Flow
 
 All figures correspond to Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food
 production is sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. 
@@ -143,6 +144,7 @@ https://doi.org/10.1525/elementa.310
 
 
 The crop account: all crops translated to kcal per person per day:
+```
 ----------------------------------------------------------------------------------------------------------------
 Directly edible crops produced                  5,935 kcal/person/day
 Pasture and stover, not human-digestible        3,812 kcal/person/day
@@ -151,12 +153,14 @@ Average energy requirement*                     2,353 kcal/person/day
 Effectively eaten                               2,531 kcal/person/day
 Real surplus                                    8%
 ----------------------------------------------------------------------------------------------------------------
+```
 * Global weighted average derived by the authors applying the methodology of the 2001 joint expert consultation 
 on human energy requirements. Not a published figure: the original document provides tables by age, sex, weight, 
 and physical activity.
 
 
 The livestock account:
+```
 ----------------------------------------------------------------------------------------------------------------
 Edible crops fed to animals                     1,738 kcal
 Pasture and stover fed to animals               3,812 kcal
@@ -164,8 +168,9 @@ Total consumed by animals                       5,550 kcal
 Returned as meat, dairy and fish                  594 kcal
 Conversion rate                                     12%
 ----------------------------------------------------------------------------------------------------------------
-
+```
 And the most striking figure from the study, on protein:
+
 ----------------------------------------------------------------------------------------------------------------
 Protein eaten                                   81 g/person/day
 Average requirement                             44 g/person/day
@@ -696,12 +701,13 @@ as with 60,000.
 
 
 ### 6.2 Self-Sufficiency
-
+```
 -----------------------------------------------------------------------------------------
 Volume generated per participant          1,560 × 5 circulation turns        7,800
 Fund commission, 1%\*                     7,800 × 0.01                      78
 Participants needed                       94,010 ÷ 78                       ≈ 1,205
 -----------------------------------------------------------------------------------------
+```
 * Merely a reference calculation; lower commissions are intended.
 
 With about 600 active people, the platform pays for itself. In the pessimistic scenario — low commission 
@@ -711,11 +717,12 @@ The most fragile assumption is the five circulation turns, which depend on the e
 In the early stages, there will be little.
 
 ### 6.3 Capital of the Food Circuit
-
+```
 -----------------------------------------------------------------------------------------
 Land leasing                   15–25 million                    $230–$380
 Land acquisition                150–250 million                  $2,300–$3,800
 -----------------------------------------------------------------------------------------
+```
 Only acquisition in the treasury builds global common patrimony. Leasing pays rent to whoever owns the land.
 
 Reference: a 10,000-hectare operation feeds between 50,000 and 80,000 people if production is directed to direct
@@ -849,7 +856,7 @@ Total                                     3,200,000
 
 
 ### 6.5 Measurable Milestones
-
+```
 ----------------------------------------------------------------------------------
 | Phase | Month | Verifiable Milestone                                           |
 |-------|-------|----------------------------------------------------------------|
@@ -860,6 +867,7 @@ Total                                     3,200,000
 |   2   |  12   |  First cooperatives operating before releasing social currency |
 |-------|-------|----------------------------------------------------------------|
 ----------------------------------------------------------------------------------
+```
 Each milestone is verifiable by third parties, not by self-declaration.
 
 
@@ -872,7 +880,7 @@ Each milestone is verifiable by third parties, not by self-declaration.
 
 ### Annex A — System Architecture
 ### A.1 Layers
-
+```
 ┌───────────────────────────────────────────────────────────┐
 │  APPLICATION                                              │
 │  Interfaces · Forums · Social network · Translator        │
@@ -900,9 +908,9 @@ Each milestone is verifiable by third parties, not by self-declaration.
 │  HARDWARE                                                 │
 │  Nodes · Antennas · Solar panels · Batteries              │
 └───────────────────────────────────────────────────────────┘
-
+```
 ### A.2 Node Hierarchy
-
+```
                     ┌──────────────────┐
                     │  HISTORICAL NODE │
                     │  Archive custody │
@@ -929,13 +937,13 @@ Each milestone is verifiable by third parties, not by self-declaration.
    ┌───▼───┐     ┌────▼───┐
    │Person │     │ Person │
    └───────┘     └────────┘
-
+```
 The hierarchy is soft: supernodes accelerate the network; they are not
 a requirement for its functioning. If a supernode falls, access nodes 
 continue to communicate with each other.
 
 ### A.3 Economic Circuit Flow
-
+```
    EXTERNAL CAPITAL
    (contributions, sale of production, MS purchases)
           │
@@ -967,9 +975,9 @@ continue to communicate with each other.
       ▼
    FOOD DELIVERED
    (not sold — it is a right, not merchandise)
-
+```
 ### A.4 Initial Integration with World Mobile
-
+```
    ┌─────────────────────┐         ┌──────────────────────┐
    │   WORLD MOBILE      │         │      ADAMAS          │
    │                     │         │                      │
@@ -994,7 +1002,7 @@ continue to communicate with each other.
    │  │ coverage  │   communication│   └──────────────┘   │
    │  └───────────┘      │         │                      │
    └─────────────────────┘         └──────────────────────┘
-
+```
 * No bridges between ledgers*
 
 * No cross-validation*
