@@ -143,40 +143,40 @@ https://doi.org/10.1525/elementa.310
 
 
 The crop account: all crops translated to kcal per person per day:
-```
-----------------------------------------------------------------------------------------------------------------
-Directly edible crops produced                  5,935 kcal/person/day
-Pasture and stover, not human-digestible        3,812 kcal/person/day
-Total production                                9,747 kcal/person/day
-Average energy requirement*                     2,353 kcal/person/day
-Effectively eaten                               2,531 kcal/person/day
-Real surplus                                    8%
-----------------------------------------------------------------------------------------------------------------
-```
+
+| Concept | Value |
+|---------|-------|
+| Directly edible crops produced | 5,935 kcal/person/day |
+| Pasture and stover, not human-digestible | 3,812 kcal/person/day |
+| Total production | 9,747 kcal/person/day |
+| Average energy requirement* | 2,353 kcal/person/day |
+| Effectively eaten | 2,531 kcal/person/day |
+| Real surplus | 8% |
+
 * Global weighted average derived by the authors applying the methodology of the 2001 joint expert consultation 
 on human energy requirements. Not a published figure: the original document provides tables by age, sex, weight, 
 and physical activity.
 
 
 The livestock account:
-```
-----------------------------------------------------------------------------------------------------------------
-Edible crops fed to animals                     1,738 kcal
-Pasture and stover fed to animals               3,812 kcal
-Total consumed by animals                       5,550 kcal
-Returned as meat, dairy and fish                  594 kcal
-Conversion rate                                     12%
-----------------------------------------------------------------------------------------------------------------
-```
+
+| Concept | Value |
+|---------|-------|
+| Edible crops fed to animals | 1,738 kcal |
+| Pasture and stover fed to animals | 3,812 kcal |
+| Total consumed by animals | 5,550 kcal |
+| Returned as meat, dairy and fish | 594 kcal |
+| Conversion rate | 12% |
+
+
 And the most striking figure from the study, on protein:
 
-----------------------------------------------------------------------------------------------------------------
-Protein eaten                                   81 g/person/day
-Average requirement                             44 g/person/day
-Excess consumption                              84%
-Reduction in available protein by feeding
-edible crops to animals                         51 g/person/day — 116% of global requirement
-----------------------------------------------------------------------------------------------------------------
+| Concept | Value |
+|---------|-------|
+| Protein eaten | 81 g/person/day |
+| Average requirement | 44 g/person/day |
+| Excess consumption | 84% |
+| Reduction in available protein by feeding edible crops to animals | 51 g/person/day — 116% of global requirement |
 
 
 The study's own scenarios: stopping the practice of feeding edible crops to animals would be enough to 
@@ -193,16 +193,16 @@ increases, quantitatively less important than reducing the use of edible crops f
 Source: FAO, IFAD, UNICEF, WFP, & WHO. (2026). The State of Food Security and Nutrition in the World 2026.- 
     -Rome. https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026 
 
-----------------------------------------------------------------------------------------------------------------
-People unable to afford a healthy diet                  2.69 billion — 32.7%
-People who faced hunger                                 645 million — 7.8%
-Cost of a healthy diet, 2025                            $4.28 PPP/person/day
-Same cost in 2021                                       $3.44
-Same cost in 2017                                       $2.94
-Increase in eight years                                 46%
-African population unable to afford it                  66.6%
-International extreme poverty line                      $3 PPP/day
-----------------------------------------------------------------------------------------------------------------
+| Concept | Value |
+|---------|-------|
+| People unable to afford a healthy diet | 2.69 billion — 32.7% |
+| People who faced hunger | 645 million — 7.8% |
+| Cost of a healthy diet, 2025 | $4.28 PPP/person/day |
+| Same cost in 2021 | $3.44 |
+| Same cost in 2017 | $2.94 |
+| Increase in eight years | 46% |
+| African population unable to afford it | 66.6% |
+| International extreme poverty line | $3 PPP/day |
 
 The contrast the report itself highlights: the extreme poverty line is at $3, and eating healthily costs $4.28. 
 The poverty line does not measure the ability to eat well — it measures the ability to survive poorly.
@@ -213,14 +213,14 @@ The poverty line does not measure the ability to eat well — it measures the ab
 Source: FAO, "FAO. (2025). Employment indicators 2000–2023 — July 2025 update. FAOSTAT Analytical Briefs, 
       No. 110. Rome. https://doi.org/10.4060/cd5821en 
 
-----------------------------------------------------------------------------------------------------------------
-People employed in agrifood systems, 2022               1.3 billion
-Share of global employment                              Two out of every five employed people
-Average weekly hours, 81 countries, 2023                40
-Annual hours of the food system                         2.70 trillion    *Calculation: 1.3B × 40 × 52*
-Hours per person per year                               330         *Calculation: 2.70T ÷ 8.2B* (total humanity)
-Daily equivalent                                        0.90 hours       *Calculation: 330 ÷ 365*
-----------------------------------------------------------------------------------------------------------------
+| Concept | Value | Status |
+|---------|-------|--------|
+| People employed in agrifood systems, 2022 | 1.3 billion |  |
+| Share of global employment | Two out of every five |  |
+| Average weekly hours, 81 countries, 2023 | 40 |  |
+| Annual hours of the food system | 2.70 trillion | Calculation |
+| Hours per person per year | 330 | Calculation |
+| Daily equivalent | 0.90 hours | Calculation |
 
 Currently, the cost of feeding all of humanity healthily (the above studies translate the full range of all 
 crops into calories)translates into each person in the world working one hour per day. Each person's daily
@@ -239,24 +239,27 @@ day's food — is materially achievable. It is not generosity: it is the proport
 Source: USDA Economic Research Service.(2024). Food Dollar Series.Washington, DC.Corresponds to a single 
         country;treat as order of magnitude.
         https://www.ers.usda.gov/data-products/food-dollar-series
+        
+| Concept | Value |
+|---------|-------|
+| Producer share of total food spending | 11.8 cents per dollar |
+| Share in supermarket purchases | 18.5 cents |
+| Same figure in 1994 | 24 cents |
+| What remains for crop producers after expenses | 2.5 cents |
+| Marketing cost | 88.2 cents |
 
-----------------------------------------------------------------------------------------------------------------
-Producer share of total food spending                   11.8 cents per dollar
-Share in supermarket purchases                          18.5 cents
-Same figure in 1994                                     24 cents
-What remains for crop producers after expenses          2.5 cents
-Marketing cost                                          88.2 cents
-----------------------------------------------------------------------------------------------------------------
 The producer's share has halved in three decades.
 
 The calculation applied to a community of 500 people:
-----------------------------------------------------------------------------------------------------------------
-Market price cost                          4.28 × 500 × 365        $781,000/year
-Full-time equivalent workers               330 h × 500 ÷ 2,080 h   ≈ 80
-Annual income per worker                   4.28 × 365              $1,560
-Cost of paying producers                   1,560 × 80              $125,000/year
-Factor                                     781,000 ÷ 125,000       ≈ 6 to 1
-----------------------------------------------------------------------------------------------------------------
+
+| Concept | Value | Status |
+|---------|-------|--------|
+|Market price cost | 4.28 × 500 × 365 | $781,000/year
+|Full-time equivalent workers | 330 h × 500 ÷ 2,080 h | ≈ 80
+|Annual income per worker | 4.28 × 365 | $1,560
+|Cost of paying producers | 1,560 × 80 | $125,000/year
+|Factor | 781,000 ÷ 125,000 | ≈ 6 to 1
+
 
 Three reasons explain it, and none is an efficiency of the project but rather an inefficiency of the current 
 system: no payment for each link's commercial margin; no payment for the third that is wasted and incorporated 
