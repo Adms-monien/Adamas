@@ -35,6 +35,7 @@ The world grows 5,935 kilocalories per person per day of directly edible food. O
 | Effectively eaten | 2,531 kcal |
 | Average requirement | 2,353 kcal |
 | Real surplus | 178 kcal — 8% |
+
 Source: Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food production is 
 sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. Elementa: 
 Science of the Anthropocene, https://doi.org/10.1525/elementa.310
