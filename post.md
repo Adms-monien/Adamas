@@ -225,7 +225,7 @@ comestibles entregados a animales.
   Costo de una dieta saludable, 2025                   4,28 dólares PPA/persona/día
   El mismo costo en 2021                               3,44
   El mismo costo en 2017                               2,94
-  Aumento en ocho años                         46%
+  Aumento en ocho años                         		   46%
   Población africana sin capacidad de costearla        66,6%
   Umbral internacional de pobreza extrema              3 dólares PPA/día
   ---------------------------------------------------- --------------------------------------
@@ -1049,7 +1049,7 @@ unos 45 dólares.*
   Hardware para piloto          20.000                Nodos LoRa, HaLow, supernodos, energía
   Infraestructura y operación   14.000                Conectividad, servicios, reposición
   Reserva                       20.000                Imprevistos generales
-                                        -20,000               Redondeo.
+                               		 -20,000               Redondeo.
   Total                         250.000   
   ------------------------------------- --------------------- ----------------------------------------
 
