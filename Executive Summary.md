@@ -1,21 +1,23 @@
-# Adamas
+# **Adamas**
+ ##### **Infrastructure for food sovereignty, the real economy, autonomous coordination, and decentralized networks.**
 
-## Let's build the web4:
+#### **Let's build the web4.**
 
-Infrastructure for food sovereignty, the real economy, autonomous coordination, and decentralized networks.
-
-
+<br>
 .
-
+<br>
+<br>
+<br>
 
 ## Executive Summary
+
 
 ### The Problem
 
 2.69 billion people — 32.7% of humanity — cannot afford a healthy diet. 645 million faced hunger in 2025.
 
-The cost of eating well rose 46% in eight years: from $2.94 per person per day in 2017 to $4.28 in 2025. — 
-State of Food Security and Nutrition in the World, 2026 edition. The figure continues to rise.
+The cost of eating well rose 46% in eight years: from $2.94 per person per day in 2017 to $4.28 in 2025. —FAO et al., (2026). 
+The figure continues to rise.
 
 A figure that reveals the distortion: the international extreme poverty line is set at $3 per day, while 
 eating healthily costs $4.28. Those just above the poverty line cannot afford to eat well.
@@ -36,9 +38,11 @@ The world grows 5,935 kilocalories per person per day of directly edible food. O
 | Average requirement | 2,353 kcal |
 | Real surplus | 178 kcal — 8% |
 
-Source: Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food production is 
-sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. Elementa: 
-Science of the Anthropocene, https://doi.org/10.1525/elementa.310
+<small> Source: Berners-Lee et al., (2018).</small>
+
+
+<br>
+
 
 The global food system produces just enough. And it produces just enough because it diverts nearly 
 half of what is edible to uses that destroy nutritional value.
@@ -58,12 +62,12 @@ what already exists, not producing more. Adamas is that coordination infrastruct
 The problem is not production but destination, distribution, and price.
 
 And a figure proves it: for every dollar spent on food, 11.8 cents reach the producer. After deducting 
-their expenses, they keep between 2 and 3 cents. — USDA Economic Research Service, Food Dollar series, 2024.
+their expenses, they keep between 2 and 3 cents. —USDA Economic Research Service, (2024).
 
 The remaining 88.2 cents are processing, packaging, long-distance transport, wholesale intermediation, 
 and retail margin — much of which a local circuit does not need.
 
-### The Solution
+#### The Solution
 
 Adamas is a coordination platform that enables communities to self-manage their economy and governance.
 
@@ -78,9 +82,11 @@ Its infrastructure combines: assembly governance with double threshold, decentra
 and anonymous uniqueness, a social currency backed by real production, and an autonomous mesh network that 
 operates without depending on commercial internet.
 
-
+<br>
 .
-
+<br> 
+<br>
+<br>
 
 ### 1. Project Description
 
@@ -128,18 +134,18 @@ treasury, global results, integrity anchors — and distributed ledgers with sta
 Network layer. LoRa for telegrams, votes, and alerts. Wi-Fi HaLow for content transport. BATMAN-adv for 
 self-healing mesh routing. Community supernodes as soft hierarchy — accelerators, not requirements.
 
-
+<br>
 .
-
+<br> 
+<br>
+<br>
 
 ### 2. PROBLEM AND SOLUTION
 
 #### 2.1 The Global Food Flow
 
-All figures correspond to Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food
-production is sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. 
-Elementa: Science of the Anthropocene, 6.Article 52, 2018, with 2013 data from FAO food balance sheets.
-https://doi.org/10.1525/elementa.310
+All figures correspond to Berners-Lee et al., (2018), with 2013 data from FAO food balance sheets.
+
 
 
 The crop account: all crops translated to kcal per person per day:
@@ -157,7 +163,6 @@ The crop account: all crops translated to kcal per person per day:
 on human energy requirements. Not a published figure: the original document provides tables by age, sex, weight, 
 and physical activity.
 
-
 The livestock account:
 
 | Concept | Value |
@@ -168,7 +173,6 @@ The livestock account:
 | Returned as meat, dairy and fish | 594 kcal |
 | Conversion rate | 12% |
 
-
 And the most striking figure from the study, on protein:
 
 | Concept | Value |
@@ -177,7 +181,6 @@ And the most striking figure from the study, on protein:
 | Average requirement | 44 g/person/day |
 | Excess consumption | 84% |
 | Reduction in available protein by feeding edible crops to animals | 51 g/person/day — 116% of global requirement |
-
 
 The study's own scenarios: stopping the practice of feeding edible crops to animals would be enough to 
 adequately feed 9.7 billion people in 2050 without reducing waste or excessive consumption. Following the
@@ -188,10 +191,9 @@ And the conclusion the authors state: reducing waste and increasing yields are, 
 increases, quantitatively less important than reducing the use of edible crops for animal feed.
 
 
-## 2.2 Current Hunger
+#### 2.2 Current Hunger
 
-Source: FAO, IFAD, UNICEF, WFP, & WHO. (2026). The State of Food Security and Nutrition in the World 2026.- 
-    -Rome. https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026 
+Source: FAO, IFAD, UNICEF, WFP, & WHO. (2026) 
 
 | Concept | Value |
 |---------|-------|
@@ -208,19 +210,18 @@ The contrast the report itself highlights: the extreme poverty line is at $3, an
 The poverty line does not measure the ability to eat well — it measures the ability to survive poorly.
 
 
-## 2.3 The Work of the Food System
+#### 2.3 The Work of the Food System
 
-Source: FAO, "FAO. (2025). Employment indicators 2000–2023 — July 2025 update. FAOSTAT Analytical Briefs, 
-      No. 110. Rome. https://doi.org/10.4060/cd5821en 
+Source: FAO, (2025). 
 
-| Concept | Value | Status |
-|---------|-------|--------|
+| Concept | Value | Calculation |
+|---------|-------|-------------|
 | People employed in agrifood systems, 2022 | 1.3 billion |  |
 | Share of global employment | Two out of every five |  |
 | Average weekly hours, 81 countries, 2023 | 40 |  |
-| Annual hours of the food system | 2.70 trillion | Calculation |
-| Hours per person per year | 330 | Calculation |
-| Daily equivalent | 0.90 hours | Calculation |
+| Annual hours of the food system | | 2.70 trillion |
+| Hours per person per year | | 330 |
+| Daily equivalent | | 0.90 hours |
 
 Currently, the cost of feeding all of humanity healthily (the above studies translate the full range of all 
 crops into calories)translates into each person in the world working one hour per day. Each person's daily
@@ -234,11 +235,10 @@ effective daily hours per person are probably lower, which reinforces the argume
 Why it matters: it establishes that the proposed minimum floor — one hour of work at least equal to one 
 day's food — is materially achievable. It is not generosity: it is the proportion the system already has.
 
-## 2.4 The Efficiency Factor
 
-Source: USDA Economic Research Service.(2024). Food Dollar Series.Washington, DC.Corresponds to a single 
-        country;treat as order of magnitude.
-        https://www.ers.usda.gov/data-products/food-dollar-series
+#### 2.4 The Efficiency Factor
+
+Source: USDA Economic Research Service, (2024).
         
 | Concept | Value |
 |---------|-------|
@@ -252,13 +252,13 @@ The producer's share has halved in three decades.
 
 The calculation applied to a community of 500 people:
 
-| Concept | Value | Status |
-|---------|-------|--------|
-|Market price cost | 4.28 × 500 × 365 | $781,000/year
-|Full-time equivalent workers | 330 h × 500 ÷ 2,080 h | ≈ 80
-|Annual income per worker | 4.28 × 365 | $1,560
-|Cost of paying producers | 1,560 × 80 | $125,000/year
-|Factor | 781,000 ÷ 125,000 | ≈ 6 to 1
+| Concept | Formula | Result |
+|---------|---------|--------|
+| Market price cost | 4.28 × 500 × 365 | $781,000/year |
+| Full-time equivalent workers | 330 h × 500 ÷ 2,080 h | ≈ 80 |
+| Annual income per worker | 4.28 × 365 | $1,560 |
+| Cost of paying producers | 1,560 × 80 | $125,000/year |
+| Factor | 781,000 ÷ 125,000 | ≈ 6 to 1 |
 
 
 Three reasons explain it, and none is an efficiency of the project but rather an inefficiency of the current 
@@ -271,7 +271,8 @@ same food.
 The assumption of 80 people is verified against peasant productivity data: the ratio of 6.25 people fed per 
 worker falls within the documented range of 6 to 8 for small-scale agriculture.
 
-## 2.5 The Solution
+
+#### 2.5 The Solution
 
 It does not propose producing more surplus, but rather that what is produced reaches people.
 
@@ -300,13 +301,15 @@ distributed) to the solution (direct payment, community agreement, autonomous ne
 economic and social circularity, and social currency with real backing). There are no loose pieces: each layer 
 responds to a distortion in the current system.
 
-
+<br>
 .
+<br> 
+<br>
+<br>
 
+### 3. TECHNICAL PROPOSAL
 
-## 3. TECHNICAL PROPOSAL
-
-## 3.1 Governance
+#### 3.1 Governance
 
 Neighborhood or zonal assemblies of around 150 people, with full autonomy over their affairs — self-determination
 is relevant in organizing; it is a number at which organization does not become complicated. The network of 
@@ -325,7 +328,8 @@ so no one can choose the outcome.
 Custodians at three independent levels — global, regional, local — with threshold signature, selection by 
 stratified sortition, and staggered partial rotation.
 
-### A Possible Permanent Pillar of Self-Governance: AdmsDID
+
+#### A Possible Permanent Pillar of Self-Governance: AdmsDID
 
 AdmsDID is a decentralized identity system that enables each person to prove they are a single person without 
 revealing which one, and without resorting to state credentials.
@@ -351,6 +355,7 @@ The privacy of transactions is not an obstacle to equity; it is its condition.
 The problem is not identity but uniqueness, and it is worth stating precisely: to prevent a person from 
 registering twice, one must compare their registration against existing ones — and that comparison is 
 exactly what anonymity would seem to prevent. 
+
 Anonymity in global voting matters doubly because it prevents or undermines the verification of vote 
 buying; the issue is that without a mechanism to prevent multiple registrations, both community voting 
 and the distribution of social currency are vulnerable to duplication. Without external credentials, 
@@ -363,7 +368,7 @@ There is a reference implementation that resolves the duplication/deduplication 
 the IEEE Symposium on Security and Privacy in 2024 and developed by the CISPA center together with the SPRING 
 group of the École Polytechnique Fédérale de Lausanne and the International Committee of the Red Cross. Its 
 code is open source and was designed for privacy-preserving biometric deduplication in humanitarian identification 
-programs. Before continuing, we note that this text opposes invasive biometrics, particularly ocular registration; 
+programs —Edalatnejad, K. Et al., (2024). Before continuing, we note that this text opposes invasive biometrics, particularly ocular registration; 
 if biometrics become necessary due to circumstances, it must be a registration generated by free
 people for free people, at their voluntary decision.
 
@@ -398,7 +403,7 @@ of thousands of people.
 Statistics show it is viable, however.
 
 
-## 3.2 Economy
+#### 3.2 Economy
 
 Social currency: a ledger, not a speculative asset. It does not trade on any market, is not acquirable outside 
 the system, and its value does not float according to expectations.
@@ -421,7 +426,8 @@ for the early stages — to decide when the economy should send threshold warnin
 
 Concentration detection by arithmetic with fixed parameters. No machine learning, no neural networks.
 
-## 3.2.1 The Treasury: Assets, Wallet, and the Two Stages of Adamas
+
+#### 3.2.1 The Treasury: Assets, Wallet, and the Two Stages of Adamas
 
 The Treasury is not an abstract fund: it is physical and digital patrimony.
 
@@ -435,7 +441,8 @@ without needing bridges or exposing the social currency to external volatility.
 
 This duality is what makes the two-stage model possible.
 
-### Stage 1: Growth and Construction
+
+Stage 1: Growth and Construction
 
 The Treasury concentrates decision-making, reserve management, and cooperative coordination. It is the stage 
 of initial investment, fine-tuning of parameters — conversion rate, accumulation ceilings, minimum hourly 
@@ -449,7 +456,8 @@ It is not improvisation: it is learning before scaling.
 The fund's adjustments must be decoupled from the treasury and automated through arithmetic and the detector, 
 gradually and increasingly.
 
-### Stage 2: Autonomy and Transfer
+
+Stage 2: Autonomy and Transfer
 
 When the system reaches a high level of participation, when the internal economy is autonomous and stable, 
 and/or when AdmsDID guarantees that each person is one without revealing their identity, the Treasury transfers 
@@ -473,7 +481,7 @@ would be nominal. With AdmsDID, the community can decide globally; without AdmsD
 be regional, although palliative measures have also been taken in this area.
 
 
-## 3.2.2 Detector
+#### 3.2.2 Detector
 
 The detector is an arithmetic monitoring system, not a surveillance system.
 
@@ -490,7 +498,7 @@ concentrated in few recipients, or leaving the circuit toward external conversio
 The detector only signals anomalies. It decides nothing. The decision is always the community's.
 
 
-## 3.3 Networks
+#### 3.3 Networks
 
 LoRa: telegram layer. Votes, cryptographic fingerprints, alerts. 2 to 5 kilometers in urban settings, 
           tens of kilometers in line of sight. A signed vote fits in less than a kilobyte.
@@ -506,7 +514,8 @@ Community supernodes as soft hierarchy — they accelerate the network without b
 Conflict-free state convergence for operation in partitioned networks: nodes converge upon reconnection 
           without needing consensus.
 
-## 3.4 Programming
+
+#### 3.4 Programming
 
 Core in Rust: identity, post-quantum cryptography, verification, state convergence, protocol.
 
@@ -524,11 +533,11 @@ Chained ledger, not an external chain framework. Frameworks with a main-chain ar
 
 Reproducible builds mandatory from the start. The same source must produce the same binary, verifiable by anyone.
 
-## 3.5 Security
+#### 3.5 Security
 
 No bridges between chains. This is the most important security decision of the design: bridges concentrated 69% 
-of the sector's stolen funds in 2022, and the largest incident of 2026 — $292 million — occurred due to a 
-verification scheme with a quorum of one over one.
+of the sector's stolen funds in 2022— Source: Chainalysis, (2022), and the largest incident of 2026 ($292 million) 
+occurred due to a verification scheme with a quorum of one over one —sources: Blockonomi, (2026); Gate News, (2026).
 
 Threshold signatures with distributed key generation for critical decisions. No individual party can authorize 
 anything.
@@ -543,27 +552,30 @@ Node updates signed by threshold, distributed through the mesh itself, with veri
 to revert, and staggered deployment. No silent updates — this is the direct lesson from the history of malicious 
 extensions, where the main vector was not installation but automatic updates.
 
-And the figure that orders security priorities: 88% of the sector's losses in 2025 came from private key 
-compromise, not code errors. One case lost $285 million after six months of social engineering. There was no 
-exploit: there was patience.
+And the figure that orders security priorities: 88% of the sector's losses in 2025 came from private key compromise, 
+not code errors (Chainalysis, 2025). One case lost $285 million after six months of social engineering (Blockonomi, 
+(2025); COINTURK News, (2025); Lekati, (2026)). There was no exploit: there was patience (Lekati, (2026))."
 
-
+<br>
 .
+<br> 
+<br>
+<br>
 
+### 4. Integration with World Mobile
 
-## 4. Integration with World Mobile
-
-### AirNodes as access nodes.
+#### AirNodes as access nodes.
 
 They provide connectivity to Adamas users in areas with coverage. There is no technical dependency: it is
 shared use of transport infrastructure.
 
 Possible auxiliary functions, with strict conditions:
---------------------------------------------------------------------------------------------------------------
-Content caching         It is cache, not custody. Content can be lost without affecting the system.
-Network entry point     Provides access to those without their own node. Does not participate in the mesh.
-Content indexing        Accelerates searches. It is an improvement, not a dependency.
---------------------------------------------------------------------------------------------------------------
+
+| Function | Condition |
+|----------|-----------|
+| Content caching | It is cache, not custody. Content can be lost without affecting the system. |
+| Network entry point | Provides access to those without their own node. Does not participate in the mesh. |
+| Content indexing | Accelerates searches. It is an improvement, not a dependency. |
 
 The distinction between cache and custody is what makes this integration possible. Cache accelerates access to 
 content that exists elsewhere; custody is the responsibility for that content's existence. Adamas nodes custody; 
@@ -576,7 +588,7 @@ hash. If compromised, it would serve invalid content that the receiver discards 
 because it has nothing to sign it with. This condition is what makes it acceptable for Adamas-related software 
 to run on hardware we do not control.
 
-### On EarthNodes:
+#### On EarthNodes:
 
 Limited functions, without custody or validation.
 
@@ -594,25 +606,25 @@ exactly the single point of compromise that the design avoids. The largest secur
 2026 occurred due to a verification scheme with insufficient quorum.
 
 What they can do, under the same non-criticality condition:
--------------------------------------------------------------------------------------------------------------
-Bounded computation         Not involving sensitive data or keys. Translation processing, 
-                            batch signature verification, indexing.
-Temporary storage           Cache, never permanent custody.
-Network entry point         Access for those without their own node.
--------------------------------------------------------------------------------------------------------------
+
+| Function | Condition |
+|----------|-----------|
+| Bounded computation | Not involving sensitive data or keys. Translation processing, batch signature verification, indexing. |
+| Temporary storage | Cache, never permanent custody. |
+| Network entry point | Access for those without their own node. |
 
 Their computing capacity is greater than an AirNode's, making them suitable for tasks requiring processing 
 without responsibility. Integrations with EarthNodes are under analysis; similarly, functions that Adamas 
 can fulfill for them will be evaluated to encourage collective participation.
 
-### On WMTX
+#### On WMTX
 
 What can be offered: that the Adamas treasury accepts WMTX as a form of purchase or contribution, with a 
 preferential exchange rate for social currency. This gives WMTX real utility outside its own ecosystem, 
 without exposing either ledger. Due to the nature of the social currency and economic architecture, we cannot 
 offer ledger integration or bridges. 
 
-### What Adamas Offers to Node Operators
+#### What Adamas Offers to Node Operators
 
 Verifiable contribution certificate. An AirNode or EarthNode operator who contributes capacity to the Adamas 
 network can obtain a verifiable accreditation as community support infrastructure. It is public and traceable 
@@ -628,25 +640,25 @@ in the circuit like any person.
 
 What is not offered, and should be stated with its rationale:
 
-    Vote on the platform. Participation in decisions corresponds to verified people, not just someone who 
-    operates infrastructure. A node is not a person, but that does not prevent those people from integrating 
-    into their community or into Adamas.
+   Vote on the platform. Participation in decisions corresponds to verified people, not just someone who 
+   operates infrastructure. A node is not a person, but that does not prevent those people from integrating 
+   into their community or into Adamas.
 
-    Reward in social currency. Social currency rewards participation in the productive circuit. Paying it 
-    to external nodes would break the model.
+   Reward in social currency. Social currency rewards participation in the productive circuit. Paying it 
+   to external nodes would break the model.
 
-### What Is Offered to World Mobile: Reciprocity — Access to the Adamas Mesh
+#### What Is Offered to World Mobile: Reciprocity — Access to the Adamas Mesh
 
 World Mobile users could access the Adamas mesh network where there is no AirNode coverage, or where it 
 is deficient. It is an exchange of complementary infrastructure: World Mobile provides high-speed internet 
 where its network reaches; Adamas provides autonomous long-range communication where no network reaches.
 
--------------------------------------------------------------------------------------------------------------
-Range                       Low-speed messaging — telegrams, text, alerts.
-Priority                    Community participants have precedence; external access uses remaining capacity.
-No economic exposure        Network access does not imply access to social currency or governance.
-No dependency               The mesh exists and functions independently of this opening
--------------------------------------------------------------------------------------------------------------
+| Aspect | Condition |
+|--------|-----------|
+| Range | Low-speed messaging — telegrams, text, alerts. |
+| Priority | Community participants have precedence; external access uses remaining capacity. |
+| No economic exposure | Network access does not imply access to social currency or governance. |
+| No dependency | The mesh exists and functions independently of this opening. |
 
 On priority, and it is a technical condition, not a preference: long-range radio bands have regulatory duty 
 cycle limits — how long a device can transmit per hour, depending on jurisdiction. Opening the mesh without 
@@ -659,57 +671,55 @@ connect areas with aerial link difficulties, in an auxiliary manner and custodie
 and resilience to the network.It is also imperative to make the mesh networks of the various scales 
 sufficiently dense.
 
-
+<br>
 .
+<br> 
+<br>
+<br>
 
+### 5. Roadmap
 
-## 5. Roadmap
+| Phase | Duration | Description | Key Deliverables |
+|-------|----------|-------------|------------------|
+| **Phase 1** | 6 months | Functional prototype of assembly governance and social currency ledger. | LoRa nodes operational in a pilot community. Field verification of HaLow's real range. |
+| **Phase 2** | 12 months | Deployment in a rural-urban pair. | First cooperatives operating before releasing the social currency. Food circuit in operation. |
+| **Phase 3** | 24 months | Scaling to a regional network. | Chained ledger operational with custodians at three levels. Integration with AirNodes where coverage exists. |
+| **Phase 4** | 36 months | Multinational network. | The minimum viable scale is several countries with productive complementarity — no country has sufficient caloric area for its own population. |
 
-Phase 1 — six months. Functional prototype of assembly governance and social currency ledger. LoRa nodes 
-                      operational in a pilot community. Field verification of HaLow's real range.
+Precision on order: The first deployment should not be an isolated rural community. A community alone has no one to exchange with and its currency becomes immobile. It must be a rural-urban pair from the start. 
 
-Phase 2 — twelve months. Deployment in a rural-urban pair. First cooperatives operating before releasing the
-                      social currency — a currency that buys nothing is worth nothing. Food circuit in operation.
-
-Phase 3 — twenty-four months. Scaling to a regional network. Chained ledger operational with custodians at 
-                      three levels. Integration with AirNodes where coverage exists.
-
-Phase 4 — thirty-six months. Multinational network. The minimum viable scale is several countries with productive 
-                      complementarity — no country has sufficient caloric area for its own population.
-
-And a precision about order that should be stated: the first deployment should not be an isolated rural community. 
-                      A community alone has no one to exchange with and its currency becomes immobile. It must be 
-                      a rural-urban pair from the start.
-
+<br>
 .
+<br> 
+<br>
 
+### 6. Budget and Milestones
 
-## 6. Budget and Milestones
-
-### 6.1 Annual Platform Cost in Initial Operational Stage
+#### 6.1 Annual Platform Cost in Initial Operational Stage
 --All components are design assumptions, not operational data. 
 Compensation is calculated at the subsistence minimum.--
 
------------------------------------------------------------------------------------------
-Custody of 20 supernodes                   20 × 40 × 12                        9,600
-Custody of 50 historical nodes             50 × 15 × 12                        9,000
-Deliberation, 10 annual panels             10 × 20 × 18 days × 4.28            15,410
-Development, 5 people                      5 × 800 × 12                        48,000
-Non-personnel infrastructure               Connectivity, energy, replacement   12,000
-Total                                                                          94,010
------------------------------------------------------------------------------------------
+| Item | Calculation | Annual $ |
+|------|-------------|----------|
+| Custody of 20 supernodes | 20 × 40 × 12 | 9,600 |
+| Custody of 50 historical nodes | 50 × 15 × 12 | 9,000 |
+| Deliberation, 10 annual panels | 10 × 20 × 18 days × 4.28 | 15,410 |
+| Development, 5 people | 5 × 800 × 12 | 48,000 |
+| Non-personnel infrastructure | Connectivity, energy, replacement | 12,000 |
+| **Total** | | **94,010** |
+
 Development is half the cost and does not scale with participants — it may costs the same with 600 users 
 as with 60,000.
 
 
-### 6.2 Self-Sufficiency
-```
------------------------------------------------------------------------------------------
-Volume generated per participant          1,560 × 5 circulation turns        7,800
-Fund commission, 1%\*                     7,800 × 0.01                      78
-Participants needed                       94,010 ÷ 78                       ≈ 1,205
------------------------------------------------------------------------------------------
-```
+#### 6.2 Self-Sufficiency
+
+| Step | Calculation | Result |
+|------|-------------|--------|
+| Volume generated per participant | 1,560 × 5 circulation turns | 7,800 |
+| Fund commission, 1%* | 7,800 × 0.01 | 78 |
+| Participants needed | 94,010 ÷ 78 | ≈ 1,205 |
+
 * Merely a reference calculation; lower commissions are intended.
 
 With about 600 active people, the platform pays for itself. In the pessimistic scenario — low commission 
@@ -718,100 +728,106 @@ and slow circulation — about 2,000 are needed.
 The most fragile assumption is the five circulation turns, which depend on the existence of internal supply. 
 In the early stages, there will be little.
 
-### 6.3 Capital of the Food Circuit
-```
------------------------------------------------------------------------------------------
-Land leasing                   15–25 million                    $230–$380
-Land acquisition                150–250 million                  $2,300–$3,800
------------------------------------------------------------------------------------------
-```
+#### 6.3 Capital of the Food Circuit
+
+| Model | Capital | Per person fed, one-time |
+|-------|---------|--------------------------|
+| Land leasing | 15–25 million | $230–$380 |
+| Land acquisition | 150–250 million | $2,300–$3,800 |
+
 Only acquisition in the treasury builds global common patrimony. Leasing pays rent to whoever owns the land.
 
 Reference: a 10,000-hectare operation feeds between 50,000 and 80,000 people if production is directed to direct
 human consumption, with 30 to 50 workers.
 
 
-### 6.4 Minimum Amount Requested and Breakdown
+#### 6.4 Minimum Amount Requested and Breakdown
 
 $150,000 is requested for twelve months, corresponding to Phase 1 complete and the start of Phase 2.
 
-#### Design for 200 People, 20 Community Nodes
+**Design for 200 People, 20 Community Nodes**
 
 One node per ten people. Multi-use nodes are not simple radios: they combine communication, local storage, wireless
 access point, and autonomous energy.
 
-Community Multi-Use Nodes — 20 Units
-----------------------------------------------------------------
-Single-board computer, 4 GB                            70
-Storage, industrial card or SSD 256 GB                 30
-LoRa module with base board                            59
-5 dBi outdoor antenna with cable                       35
-20 W solar panel, 20 Ah battery, controller            100
-IP67 waterproof enclosure                              25
-Mounting, cabling, miscellaneous                       20
-Subtotal per node                                      339
-20 nodes                                               6,780
-----------------------------------------------------------------
+| Component | Cost $ |
+|-----------|--------|
+| Single-board computer, 4 GB | 70 |
+| Storage, industrial card or SSD 256 GB | 30 |
+| LoRa module with base board | 59 |
+| 5 dBi outdoor antenna with cable | 35 |
+| 20 W solar panel, 20 Ah battery, controller | 100 |
+| IP67 waterproof enclosure | 25 |
+| Mounting, cabling, miscellaneous | 20 |
+| **Subtotal per node** | **339** |
+| **20 nodes** | **6,780** |
 
 Community Supernodes — 3 Units
-----------------------------------------------------------------
-Higher-capacity computer                           500
-2 TB storage                                       120
-HaLow radio with directional antenna               200
-LoRa gateway                                        59
-100 W solar panel, 100 Ah battery, controller      400
-Enclosure, electrical protection                   140
-Subtotal per supernode                           1,419
-3 supernodes                                     4,257
-----------------------------------------------------------------
+
+| Component | Cost $ |
+|-----------|--------|
+| Higher-capacity computer | 500 |
+| 2 TB storage | 120 |
+| HaLow radio with directional antenna | 200 |
+| LoRa gateway | 59 |
+| 100 W solar panel, 100 Ah battery, controller | 400 |
+| Enclosure, electrical protection | 140 |
+| **Subtotal per supernode** | **1,419** |
+| **3 supernodes** | **4,257** |
 
 Historical Archive Node — 1 Unit
-----------------------------------------------------------------
-Higher-capacity compute equipment          800
-Redundant storage, 2 × 4 TB                300
-Extended autonomous energy                 450
-Protection and backup                      120
-Subtotal                                   1,470
-----------------------------------------------------------------
+
+| Component | Cost $ |
+|-----------|--------|
+| Higher-capacity compute equipment | 800 |
+| Redundant storage, 2 × 4 TB | 300 |
+| Extended autonomous energy | 450 |
+| Protection and backup | 120 |
+| **Subtotal** | **1,470** |
 
 
 Complementary Items
-----------------------------------------------------------------
-Solar HaLow repeaters, 2 units                           500
-Portable nodes for those without phones, 20 units        1,000
-Installation and measurement tools                       300
-Spare parts, 15% of hardware                             270
-Total                                                    1,530
-----------------------------------------------------------------
+
+| Item | Cost $ |
+|------|--------|
+| Solar HaLow repeaters, 2 units | 500 |
+| Portable nodes for those without phones, 20 units | 1,000 |
+| Installation and measurement tools | 300 |
+| Spare parts, 15% of hardware | 270 |
+| **Total** | **1,530** |
 
 Total
-----------------------------------------------------------------
-Hardware                                        14,037
-Shipping and import, ~25%                        3,509
-Total                                           17,546
-----------------------------------------------------------------
+
+| Item | Amount |
+|------|--------|
+| Hardware | 14,037 |
+| Shipping and import, ~25% | 3,509 |
+| **Total** | **17,546** |
+
 Remains within the 20,000 budget with a margin of about $2,400.
 
-Infrastructure and Operations
-----------------------------------------------------------------
-Link connectivity, 12 months                    600
-Development services and domains                1,200
-Field failure replacement                       2,500
-Transport and field installation                3,000
-Local operator training                         2,000
-Maintenance tools                               1,500
-Backup energy                                   500
-Field contingency                               1,000
-Unforeseen                                      1,700
-Total                                           14,000
-----------------------------------------------------------------
+| Item | Cost $ |
+|------|--------|
+| Link connectivity, 12 months | 600 |
+| Development services and domains | 1,200 |
+| Field failure replacement | 2,500 |
+| Transport and field installation | 3,000 |
+| Local operator training | 2,000 |
+| Maintenance tools | 1,500 |
+| Backup energy | 500 |
+| Field contingency | 1,000 |
+| Unforeseen | 1,700 |
+| **Total** | **14,000** |
 
+<br>
 *Annexed: Scalability Figures
-----------------------------------------------------------------
-Network cost per person, first zone                  $95
-Marginal cost per additional person in same zone     ~$34
-Cost per multi-use community node                    $339
-----------------------------------------------------------------
+
+| Metric | Value |
+|--------|-------|
+| Network cost per person, first zone | $95 |
+| Marginal cost per additional person in same zone | ~$34 |
+| Cost per multi-use community node | $339 |
+
 The difference between these figures is what matters for scaling.
 The $95 includes supernodes and archive, which are fixed costs of the zone.
 Doubling the population of that zone does not double the cost: it only adds 
@@ -819,16 +835,18 @@ community nodes, at $339 per ten people.
 With 2,000 people in the same zone, the cost per person would fall to about $45.*
 
 
-#### Budget Breakdown — Requested Amount
-----------------------------------------------------------------------------------------------
-Project direction                24,000                $2,000/month, full-time dedication
-Core development                192,000                Two people, $8,000/month each
-Pilot hardware                   20,000                LoRa nodes, HaLow, supernodes, energy
-Infrastructure and operations    14,000                Connectivity, services, replacement
-Reserve                          20,000                General unforeseen
-                                 –20,000               Rounding adjustment
-Total                           250,000
-----------------------------------------------------------------------------------------------
+**Budget Breakdown — Requested Amount**
+
+| Item | Amount | Detail |
+|------|--------|--------|
+| Project direction | 24,000 | $2,000/month, full-time dedication |
+| Core development | 192,000 | Two people, $8,000/month each |
+| Pilot hardware | 20,000 | LoRa nodes, HaLow, supernodes, energy |
+| Infrastructure and operations | 14,000 | Connectivity, services, replacement |
+| Reserve | 20,000 | General unforeseen |
+| Rounding adjustment | –20,000 | |
+| **Total** | **250,000** | |
+
 The strategy is test before scaling. Complete system development would require significantly more, but we 
 expect to achieve some degree of circularity, or to make further applications with device proof.
 
@@ -837,51 +855,45 @@ governance and social currency ledger, with nodes deployed in a pilot community 
 network assumptions. The estimated timeframe is one year.
 
 
-#### Full estimate to reach stability in three regions: 3.2 million USD over 36 months
---------------------------------------------------------------------------------------------------------------
-Category                                  Amount          Detail
-Software development                      540,000      3 years, growing from 2 to 5 developers
-Project direction and coordination        108,000      3 years
-Network hardware, three regions           180,000      ~60,000 per region: supernodes, access nodes,archive 
-                                                       nodes, antennas, solar
-Productive land acquisition               1,200,000    Enters the treasury permanently and is never resold
-Agricultural equipment and logistics      400,000      Machinery, transport, storage, cold chain
-Working capital, food circuit             450,000      First production cycle, which by definition cannot 
-                                                       self-finance
-Cooperative seed funding                  200,000      Non-food cooperatives — repair, tools, textiles, 
-                                                       construction
-Security audits                           60,000       Cryptography, threshold signatures, reproducible builds
-Legal and jurisdictional structure        40,000       Entity formation across three jurisdictions
-Contingency                               22,000
-Total                                     3,200,000
---------------------------------------------------------------------------------------------------------------
+**Full estimate to reach stability in three regions: 3.2 million USD over 36 months**
+
+| Category | Amount | Detail |
+|----------|--------|--------|
+| Software development | 540,000 | 3 years, growing from 2 to 5 developers |
+| Project direction and coordination | 108,000 | 3 years |
+| Network hardware, three regions | 180,000 | ~60,000 per region: supernodes, access nodes, archive nodes, antennas, solar |
+| Productive land acquisition | 1,200,000 | Enters the treasury permanently and is never resold |
+| Agricultural equipment and logistics | 400,000 | Machinery, transport, storage, cold chain |
+| Working capital, food circuit | 450,000 | First production cycle, which by definition cannot self-finance |
+| Cooperative seed funding | 200,000 | Non-food cooperatives — repair, tools, textiles, construction |
+| Security audits | 60,000 | Cryptography, threshold signatures, reproducible builds |
+| Legal and jurisdictional structure | 40,000 | Entity formation across three jurisdictions |
+| Contingency | 22,000 | |
+| **Total** | **3,200,000** | |
 
 
-### 6.5 Measurable Milestones
+#### 6.5 Measurable Milestones
 
-----------------------------------------------------------------------------------
-| Phase | Month | Verifiable Milestone                                           |
-|-------|-------|----------------------------------------------------------------|
-|   1   |   3   |  Identity ledger operational in test environment               |
-|   1   |   6   |  Functional prototype: assembly, voting, and balance ledger    |
-|   2   |   9   |  LoRa nodes deployed and operational in pilot community        |
-|   2   |  12   |  Field measurement of HaLow's real range                       |
-|   2   |  12   |  First cooperatives operating before releasing social currency |
-|-------|-------|----------------------------------------------------------------|
-----------------------------------------------------------------------------------
+| Phase | Month | Verifiable Milestone |
+|-------|-------|----------------------|
+| 1 | 3 | Identity ledger operational in test environment |
+| 1 | 6 | Functional prototype: assembly, voting, and balance ledger |
+| 2 | 9 | LoRa nodes deployed and operational in pilot community |
+| 2 | 12 | Field measurement of HaLow's real range |
+| 2 | 12 | First cooperatives operating before releasing social currency |
 
 Each milestone is verifiable by third parties, not by self-declaration.
 
-
+<br>
 .
+<br> 
+<br>
+<br>
 
+### Annexes
 
-
-
-##Annexes
-
-### Annex A — System Architecture
-### A.1 Layers
+#### Annex A — System Architecture
+#### A.1 Layers
 ```
 ┌───────────────────────────────────────────────────────────┐
 │  APPLICATION                                              │
@@ -911,7 +923,7 @@ Each milestone is verifiable by third parties, not by self-declaration.
 │  Nodes · Antennas · Solar panels · Batteries              │
 └───────────────────────────────────────────────────────────┘
 ```
-### A.2 Node Hierarchy
+#### A.2 Node Hierarchy
 ```
                     ┌──────────────────┐
                     │  HISTORICAL NODE │
@@ -944,7 +956,7 @@ The hierarchy is soft: supernodes accelerate the network; they are not
 a requirement for its functioning. If a supernode falls, access nodes 
 continue to communicate with each other.
 
-### A.3 Economic Circuit Flow
+#### A.3 Economic Circuit Flow
 ```
    EXTERNAL CAPITAL
    (contributions, sale of production, MS purchases)
@@ -978,7 +990,7 @@ continue to communicate with each other.
    FOOD DELIVERED
    (not sold — it is a right, not merchandise)
 ```
-### A.4 Initial Integration with World Mobile
+#### A.4 Initial Integration with World Mobile
 ```
    ┌─────────────────────┐         ┌──────────────────────┐
    │   WORLD MOBILE      │         │      ADAMAS          │
@@ -1013,108 +1025,120 @@ continue to communicate with each other.
 
 * Each network functions without the other... but together they work much better.*
 
+<br>
+<br>
+
+#### Annex B — Data Tables
 
 
-### Annex B — Data Tables
+#### Tables from the Main Text and Annexes
 
-### Tables from the Main Text and Annexes
+ #### B.1 Global Food Flow
+ 
+| Concept | Value |
+|---------|-------|
+| Directly edible crops produced | 5,935 kcal/person/day |
+| Pasture and stover, not human-digestible | 3,812 kcal/person/day |
+| Total production | 9,747 kcal/person/day |
+| Average energy requirement | 2,353 kcal/person/day |
+| Effectively eaten | 2,531 kcal/person/day |
+| Real surplus | 178 kcal → 8% |
 
- ### B.1 Global Food Flow
-----------------------------------------------------------------------------------
 
-Directly edible crops produced                  5,935 kcal/person/day
-Pasture and stover, not human-digestible        3,812 kcal/person/day
-Total production                                9,747 kcal/person/day
-Average energy requirement                      2,353 kcal/person/day
-Effectively eaten                               2,531 kcal/person/day
-Real surplus                                    178 kcal → 8%
-----------------------------------------------------------------------------------
-----------------------------------------------------------------------------------
+| Concept | Value |
+|---------|-------|
+| Total consumed by animals | 5,550 kcal/person/day |
+| Returned to human chain | 594 kcal/person/day |
+| Conversion rate | 12% |
 
-Total consumed by animals                       5,550 kcal/person/day
-Returned to human chain                         594 kcal/person/day
-Conversion rate                                 12%
-----------------------------------------------------------------------------------
 
 Protein:
-----------------------------------------------------------------------------------
-Protein eaten                                   81 g/person/day
-Recommended average requirement                 44 g/person/day
-Excess consumption                              84%
-Reduction in available protein by feeding
-edible crops to animals                         51 g — 116% of global requirement
-----------------------------------------------------------------------------------
 
-### B.2 Hunger and Food Cost
-
-----------------------------------------------------------------------------------
-People unable to afford a healthy diet           2.69 billion — 32.7%
-People who faced hunger in 2025                  645 million — 7.8%
-Cost of a healthy diet, 2025                     $4.28 PPP/person/day
-Same cost in 2021                                $3.44
-Same cost in 2017                                $2.94
-Increase in eight years                          46%
-International extreme poverty line               $3 PPP/day
-African population unable to afford it           66.6%
-----------------------------------------------------------------------------------
-
-### B.3 Work of the Food System
-
-----------------------------------------------------------------------------------
-People in agrifood systems, 2022                1.3 billion        Verified
-Share of global employment                      Two out of five    Verified
-Average weekly hours, 81 countries              40                 Verified
-Annual system hours                             2.70 trillion      Calculation
-Hours per person per year                       330                Calculation
-Daily equivalent                                0.90 hours         Calculation
-----------------------------------------------------------------------------------
-
-### B.4 Producer Share in Price
-
-----------------------------------------------------------------------------------
-Share of total food spending, 2024                   11.8 cents per dollar
-Share in supermarket purchases                       18.5 cents
-Same figure in 1994                                  24 cents
-What remains for crop producers after expenses       2.5 cents
-Marketing cost                                       88.2 cents
-----------------------------------------------------------------------------------
-
-### B.5 Efficiency Factor
-
-----------------------------------------------------------------------------------
-Market price cost, 500 people               4.28 × 500 × 365        $781,000/year
-Full-time equivalent workers                330 h × 500 ÷ 2,080 h   ≈ 80
-Annual income per worker                    4.28 × 365              $1,560
-Cost of paying producers                    1,560 × 80              $125,000/year
-Factor                                      781,000 ÷ 125,000       ≈ 6 to 1
-----------------------------------------------------------------------------------
-
-### B.6 Industrial Scale
-
-----------------------------------------------------------------------------------
-Reference area                                    10,000 hectares
-People working                                    30 to 50
-People fed, direct human consumption              50,000 to 80,000
-People fed, current model                         15,000 to 25,000
-Calories reaching humans                          30 to 40%
-----------------------------------------------------------------------------------
-
-### B.7 Security Failure Precedents
-
-----------------------------------------------------------------------------------
-Proportion stolen in cross-chain bridges, 2022                   69%
-Largest bridge loss, 2026                                        $292 million
-Proportion of losses from key compromise, not code errors        88%
-Loss from six-month social engineering                           $285 million
-Collapse of algorithmic stabilization mechanism, 2022            ≈ $40 billion
-----------------------------------------------------------------------------------
+| Concept | Value |
+|---------|-------|
+| Protein eaten | 81 g/person/day |
+| Recommended average requirement | 44 g/person/day |
+| Excess consumption | 84% |
+| Reduction in available protein by feeding edible crops to animals | 51 g — 116% of global requirement |
 
 
+#### B.2 Hunger and Food Cost
+
+
+| Concept | Value |
+|---------|-------|
+| People unable to afford a healthy diet | 2.69 billion — 32.7% |
+| People who faced hunger in 2025 | 645 million — 7.8% |
+| Cost of a healthy diet, 2025 | $4.28 PPP/person/day |
+| Same cost in 2021 | $3.44 |
+| Same cost in 2017 | $2.94 |
+| Increase in eight years | 46% |
+| International extreme poverty line | $3 PPP/day |
+| African population unable to afford it | 66.6% |
+
+#### B.3 Work of the Food System
+
+
+| Concept | Value | Status |
+|---------|-------|--------|
+| People in agrifood systems, 2022 | 1.3 billion | Verified |
+| Share of global employment | Two out of five | Verified |
+| Average weekly hours, 81 countries | 40 | Verified |
+| Annual system hours | 2.70 trillion | Calculation |
+| Hours per person per year | 330 | Calculation |
+| Daily equivalent | 0.90 hours | Calculation |
+
+#### B.4 Producer Share in Price
+
+
+| Concept | Value |
+|---------|-------|
+| Share of total food spending, 2024 | 11.8 cents per dollar |
+| Share in supermarket purchases | 18.5 cents |
+| Same figure in 1994 | 24 cents |
+| What remains for crop producers after expenses | 2.5 cents |
+| Marketing cost | 88.2 cents |
+
+#### B.5 Efficiency Factor
+
+
+| Concept | Formula | Result |
+|---------|---------|--------|
+| Market price cost, 500 people | 4.28 × 500 × 365 | $781,000/year |
+| Full-time equivalent workers | 330 h × 500 ÷ 2,080 h | ≈ 80 |
+| Annual income per worker | 4.28 × 365 | $1,560 |
+| Cost of paying producers | 1,560 × 80 | $125,000/year |
+| Factor | 781,000 ÷ 125,000 | ≈ 6 to 1 |
+
+#### B.6 Industrial Scale
+
+
+| Parameter | Value |
+|-----------|-------|
+| Reference area | 10,000 hectares |
+| People working | 30 to 50 |
+| People fed, direct human consumption | 50,000 to 80,000 |
+| People fed, current model | 15,000 to 25,000 |
+| Calories reaching humans | 30 to 40% |
+
+#### B.7 Security Failure Precedents
+
+
+| Concept | Value |
+|---------|-------|
+| Proportion stolen in cross-chain bridges, 2022 | 69% |
+| Largest bridge loss, 2026 | $292 million |
+| Proportion of losses from key compromise, not code errors | 88% |
+| Loss from six-month social engineering | $285 million |
+| Collapse of algorithmic stabilization mechanism, 2022 | ≈ $40 billion |
+
+<br>
 .
+<br> 
+<br>
+<br>
 
-
-
-## Annex C — Glossary
+### Annex C — Glossary
 
 AdmsDID          Decentralized identity system of the project. Enables proving one is a single person without 
                  revealing which one and without resorting to state credentials.
@@ -1173,28 +1197,45 @@ Common treasury  Ownerless patrimony: land, infrastructure, and social-purpose c
 
 Wi-Fi HaLow      Wi-Fi variant in the sub-1 GHz band, with greater range and lower rate than conventional Wi-Fi.
 
-
-
+<br>
 .
+<br> 
+<br>
 
+### References
 
 
 ## References
 
+Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C. N. (2018). Current global food production is sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation. *Elementa: Science of the Anthropocene*, *6*(1), Article 52. https://doi.org/10.1525/elementa.310
 
-Berners-Lee, M., Kennelly, C., Watson, R., & Hewitt, C.N. (2018). "Current global food production is sufficient to meet human nutritional needs in 2050 provided there is radical societal adaptation." Elementa: Science of the Anthropocene, 6:52. https://doi.org/10.1525/elementa.310
+Blockonomi. (2025, April 13). *Crypto security failures expose human vulnerabilities over technical flaws*. CoinMarketCap. https://coinmarketcap.com/community/articles/69dd55ce5002f14e8f53216b/
 
-FAO (2025). Employment indicators 2000–2023 — July 2025 update. FAOSTAT Analytical Briefs, No. 110. Rome. https://doi.org/10.4060/cd5821en
+Chainalysis. (2025, December 17). *Crypto hacks hit $3.4 billion in 2025, attacks on individual wallets rise*. The Block. https://www.theblock.co/amp/post/382477/crypto-hack-2025-chainalysis
 
-FAO, IFAD, UNICEF, WFP, & WHO (2026). The State of Food Security and Nutrition in the World 2026. Rome. https://doi.org/10.4060/cd8306en
+COINTURK NEWS. (2025, April 5). *Security lapses led to $285 million loss after Drift Protocol targeted in sophisticated social engineering hack*. CoinMarketCap. https://coinmarketcap.com/community/ro/articles/69d2882d6f60d521fe0861b0/
 
-World Inequality Lab (2026). World Inequality Report 2026. Paris. https://wir2026.wid.world
+EAT-Lancet Commission. (2025). *Food, planet, health: Healthy diets from sustainable food systems. Summary report of the EAT-Lancet Commission*. EAT. https://www.fao.org/family-farming/detail/en/c/1743260/
 
-USDA Economic Research Service (2024). Food Dollar Series. Washington. https://www.ers.usda.gov/data-products/food-dollar-series/
+Edalatnejad, K., Lueks, W., Sukaitis, J., Graf Narbel, V., Marelli, M., & Troncoso, C. (2024). Janus: Safe biometric deduplication for humanitarian aid distribution. In *2024 IEEE Symposium on Security and Privacy (SP)* (pp. 655-672). IEEE.  https://eprint.iacr.org/archive/2023/1377/1699444969.pdf
 
-WHO, FAO, & United Nations University (2001). Human Energy Requirements: Report of a Joint Expert Consultation. Rome. https://agris.fao.org/search/en/records/647396acce9437aa760043c0
+FAO. (2025). *Employment indicators 2000–2023 — July 2025 update*. FAOSTAT Analytical Briefs, No. 110. Rome. https://doi.org/10.4060/cd5821en
 
-EAT-Lancet Commission (2025). Reference for healthy diet of 2,500 kcal daily (2025 update). https://eatforum.org/eat-lancet/
+FAO, IFAD, UNICEF, WFP, & WHO. (2026). *The State of Food Security and Nutrition in the World 2026*. Rome. https://doi.org/10.4060/cd8306en
 
-Janus — Privacy-preserving biometric deduplication protocol. IEEE Symposium on Security and Privacy, 2024. CISPA, SPRING group of EPFL, and International Committee of the Red Cross. Code available in public repository. https://eprint.iacr.org/archive/2023/1377/1699444969.pdf
+FAO, WHO, & UNU. (2004). *Human energy requirements: Report of a Joint FAO/WHO/UNU Expert Consultation*. FAO Food and Nutrition Technical Report Series, No. 1. Rome: FAO. https://www.fao.org/4/Y5686E/y5686e00.htm
 
+Lekati, C. (2026, April 13). *In-person social engineering: The Drift Protocol attack [LinkedIn post]*. LinkedIn. https://www.linkedin.com/posts/christina-lekati-social-engineering_socialengineering-activity-7449719833312665600-Pszo
+
+USDA Economic Research Service. (2024). *Food Dollar Series*. Washington. https://www.ers.usda.gov/data-products/food-dollar-series/
+
+World Inequality Lab. (2026). *World Inequality Report 2026*. Paris. https://wir2026.wid.world
+
+<br>
+<br>
+.
+<br>
+<br>
+<br>
+<br>
+<br>
