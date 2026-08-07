@@ -112,7 +112,7 @@ las comunidades autogestionar su economía y gobernanza, sin
 intermediarios ni dependencia de infraestructura externa.
 
 ## 1.2 Arquitectura general
-
+```
 ┌─────────────────────────────────────────────────────────┐
 │  APLICACIÓN — interfaces, foros, red social, traductor  │
 ├─────────────────────────────────────────────────────────┤
@@ -133,7 +133,7 @@ intermediarios ni dependencia de infraestructura externa.
 ├─────────────────────────────────────────────────────────┤
 │  HARDWARE — nodos, antenas, paneles, baterías           │
 └─────────────────────────────────────────────────────────┘
-
+```
 Capa de gobernanza. Asambleas comunitarias del orden de 150
 personas. Doble umbral asimétrico. Paneles deliberativos por sorteo
 estratificado. Agenda determinada por cuatro canales con sorteo puro en
@@ -1097,7 +1097,7 @@ Cada hito es verificable por terceros, no por declaración propia.
 ### 
 
 ### A.1 Capas
-
+```
 ┌───────────────────────────────────────────────────────────┐
 │  APLICACIÓN                                               │
 │  Interfaces · Foros · Red social · Traductor              │
@@ -1126,11 +1126,11 @@ Cada hito es verificable por terceros, no por declaración propia.
 │  Nodos · Antenas · Paneles solares · Baterías             │
 └───────────────────────────────────────────────────────────┘
 
-
+```
 
 ### A.2 Jerarquía de nodos
 
-
+```
                     ┌──────────────────┐
                     │  NODO HISTÓRICO  │
                     │  Custodia de     │
@@ -1158,7 +1158,7 @@ Cada hito es verificable por terceros, no por declaración propia.
    ┌───▼───┐     ┌────▼───┐
    │Persona│     │Persona │
    └───────┘     └────────┘
-
+```
 
 La jerarquía es blanda: los supernodos aceleran la red, no son
 requisito para su funcionamiento. Si un supernodo cae, los nodos de
@@ -1168,7 +1168,7 @@ acceso siguen comunicándose entre sí.
 
 ### A.3 Flujo del circuito económico
 
-
+```
    CAPITAL EXTERNO
    (aportes, venta de producción, compras de MS)
           │
@@ -1236,7 +1236,7 @@ acceso siguen comunicándose entre sí.
 * Sin validación cruzada*
 
 * Sin custodia delegada*
-
+```
 
 
 * Cada red funciona sin la otra\...pero juntas funcionan mucho mejor.*
