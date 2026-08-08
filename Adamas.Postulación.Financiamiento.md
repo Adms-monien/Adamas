@@ -568,7 +568,7 @@ económica — lo que contradice el principio de una persona un voto.
 Construcción reproducible obligatoria desde el inicio. El mismo código debe producir el mismo
 binario, verificable por cualquiera.
 
-## 3.5 Seguridad
+#### 3.5 Seguridad
 
 Sin puentes entre cadenas. Es la decisión de seguridad más importante del diseño: los puentes
 concentraron el 69% de lo robado del sector en 2022, y el mayor incidente de 2026 — 292
