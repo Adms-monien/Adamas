@@ -1,9 +1,13 @@
 # Adamas
 Infraestructura para la soberanía alimentaria, la economía real, la coordinación autónoma y las redes descentralizadas.
 Sovereign infrastructure for community governance, the real economy, and autonomous networks.
+
+<br>
 The Problem
 
 2.69 billion people cannot afford a healthy diet. 645 million faced hunger in 2025. The world produces enough food —5,935 kcal per person per day— but between the field and the plate, more than half is lost: 338 kcal in the soil, 332 in storage, 808 in biofuels, 1,738 in animal feed that returns only 594. The system doesn't produce too little; it produces poorly.
+
+<br>
 The Solution
 
 Adamas is a coordination infrastructure that enables communities to self-manage their economy and governance. It integrates:
@@ -22,8 +26,11 @@ Adamas is a coordination infrastructure that enables communities to self-manage 
 
 Documentation
 
-    World Mobile Grant Application
+    Adamas.Grant.Application.md
+
+<br>
 
 Project Status
 About to finish the Adamas: Foundational Document. 
+
 Conceptual design in progress. Seeking funding for prototype development.
