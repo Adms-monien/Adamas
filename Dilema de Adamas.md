@@ -3,7 +3,7 @@
 ##### Breve análisis sociopolítico sobre el riesgo de establecer un precedente 
 ##### de baja escala, o de desarrollo con centro en expansión
 
-### .
+#### .
 
 ### El problema
 
@@ -243,4 +243,4 @@ lo que su existencia hace posible.
 
 
 
-.
+####.
