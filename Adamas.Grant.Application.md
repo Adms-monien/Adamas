@@ -3,13 +3,14 @@
 
 #### **Let's build the web4.**
 
+## Technical Document
+
 <br>
 .
 <br>
 <br>
 <br>
 
-## World Mobile Chain Grant Application
 ## Executive Summary
 
 
@@ -563,122 +564,7 @@ not code errors (Chainalysis, 2025). One case lost $285 million after six months
 <br>
 <br>
 
-### 4. Integration with World Mobile
-
-#### AirNodes as access nodes.
-
-They provide connectivity to Adamas users in areas with coverage. There is no technical dependency: it is
-shared use of transport infrastructure.
-
-Possible auxiliary functions, with strict conditions:
-
-| Function | Condition |
-|----------|-----------|
-| Content caching | It is cache, not custody. Content can be lost without affecting the system. |
-| Network entry point | Provides access to those without their own node. Does not participate in the mesh. |
-| Content indexing | Accelerates searches. It is an improvement, not a dependency. |
-
-The distinction between cache and custody is what makes this integration possible. Cache accelerates access to 
-content that exists elsewhere; custody is the responsibility for that content's existence. Adamas nodes custody; 
-AirNodes can accelerate.
-
-On technical implementation and its security condition. If an AirNode operator wishes to run auxiliary functions, 
-they would do so through a lightweight, read-only, keyless component. It handles no secrets, signs nothing, 
-decides nothing. It serves pre-signed content, whose integrity the receiver verifies against its cryptographic
-hash. If compromised, it would serve invalid content that the receiver discards — it cannot inject valid content
-because it has nothing to sign it with. This condition is what makes it acceptable for Adamas-related software 
-to run on hardware we do not control.
-
-#### On EarthNodes:
-
-Limited functions, without custody or validation.
-
-They cannot be used for archive custody or validation.
-
-Adamas archive nodes custody the system's historical record — minutes, decisions, identities — through erasure 
-coding among nodes of the network itself, with periodic cryptographic verification that each custodian retains 
-their fragment. Delegating this to third-party infrastructure breaks the architecture, because custody 
-verification loses meaning if the custodian does not integrate with the system. Adamas communities' autonomy 
-depends on autonomy in their infrastructure; possible incompatibilities in infrastructure and programming 
-architecture are also a matter for analysis.
-
-Validation is discarded for a different reason: concentrating verification in a set of external nodes creates 
-exactly the single point of compromise that the design avoids. The largest security incident in the sector in 
-2026 occurred due to a verification scheme with insufficient quorum.
-
-What they can do, under the same non-criticality condition:
-
-| Function | Condition |
-|----------|-----------|
-| Bounded computation | Not involving sensitive data or keys. Translation processing, batch signature verification, indexing. |
-| Temporary storage | Cache, never permanent custody. |
-| Network entry point | Access for those without their own node. |
-
-Their computing capacity is greater than an AirNode's, making them suitable for tasks requiring processing 
-without responsibility. Integrations with EarthNodes are under analysis; similarly, functions that Adamas 
-can fulfill for them will be evaluated to encourage collective participation.
-
-#### On WMTX
-
-What can be offered: that the Adamas treasury accepts WMTX as a form of purchase or contribution, with a 
-preferential exchange rate for social currency. This gives WMTX real utility outside its own ecosystem, 
-without exposing either ledger. Due to the nature of the social currency and economic architecture, we cannot 
-offer ledger integration or bridges. 
-
-#### What Adamas Offers to Node Operators
-
-Verifiable contribution certificate. An AirNode or EarthNode operator who contributes capacity to the Adamas 
-network can obtain a verifiable accreditation as community support infrastructure. It is public and traceable 
-recognition, not an asset or a right. It does not grant governance or economic reward, but it does record 
-participation in the early stages of a network destined for ecosocial well-being.
-
-They can reside in the distributed ledgers and not in the chained ledger. That ledger is deliberately kept 
-minimal — root identity, treasury, global results, integrity anchors — and adding certificates would add 
-unnecessary load. In distributed ledgers, it remains verifiable by anyone.
-
-Access to the platform as any participant. An operator can use forums, inform themselves, and participate 
-in the circuit like any person.
-
-What is not offered, and should be stated with its rationale:
-
-   Vote on the platform. Participation in decisions corresponds to verified people, not just someone who 
-   operates infrastructure. A node is not a person, but that does not prevent those people from integrating 
-   into their community or into Adamas.
-
-   Reward in social currency. Social currency rewards participation in the productive circuit. Paying it 
-   to external nodes would break the model.
-
-#### What Is Offered to World Mobile: Reciprocity — Access to the Adamas Mesh
-
-World Mobile users could access the Adamas mesh network where there is no AirNode coverage, or where it 
-is deficient. It is an exchange of complementary infrastructure: World Mobile provides high-speed internet 
-where its network reaches; Adamas provides autonomous long-range communication where no network reaches.
-
-| Aspect | Condition |
-|--------|-----------|
-| Range | Low-speed messaging — telegrams, text, alerts. |
-| Priority | Community participants have precedence; external access uses remaining capacity. |
-| No economic exposure | Network access does not imply access to social currency or governance. |
-| No dependency | The mesh exists and functions independently of this opening. |
-
-On priority, and it is a technical condition, not a preference: long-range radio bands have regulatory duty 
-cycle limits — how long a device can transmit per hour, depending on jurisdiction. Opening the mesh without 
-constraints could saturate the spectrum available to communities, which is the use the mesh exists to serve. 
-Low-priority external access preserves the offering without compromising the main function: the 
-self-organization of people in the territory, which is what justifies this project.
-
-In the future, for Adamas it is a logistical necessity to invest in antennas and decentralized fiber to 
-connect areas with aerial link difficulties, in an auxiliary manner and custodied by nodes, adding speed 
-and resilience to the network.It is also imperative to make the mesh networks of the various scales 
-sufficiently dense.
-
-<br>
-.
-<br> 
-<br>
-<br>
-
-### 5. Roadmap
+### 4. Roadmap
 
 | Phase | Duration | Description | Key Deliverables |
 |-------|----------|-------------|------------------|
@@ -694,9 +580,9 @@ Precision on order: The first deployment should not be an isolated rural communi
 <br> 
 <br>
 
-### 6. Budget and Milestones
+### 5. Budget and Milestones
 
-#### 6.1 Annual Platform Cost in Initial Operational Stage
+#### 5.1 Annual Platform Cost in Initial Operational Stage
 --All components are design assumptions, not operational data. 
 Compensation is calculated at the subsistence minimum.--
 
@@ -713,7 +599,7 @@ Development is half the cost and does not scale with participants — it may cos
 as with 60,000.
 
 
-#### 6.2 Self-Sufficiency
+#### 5.2 Self-Sufficiency
 
 | Step | Calculation | Result |
 |------|-------------|--------|
@@ -729,7 +615,7 @@ and slow circulation — about 2,000 are needed.
 The most fragile assumption is the five circulation turns, which depend on the existence of internal supply. 
 In the early stages, there will be little.
 
-#### 6.3 Capital of the Food Circuit
+#### 5.3 Capital of the Food Circuit
 
 | Model | Capital | Per person fed, one-time |
 |-------|---------|--------------------------|
@@ -742,7 +628,7 @@ Reference: a 10,000-hectare operation feeds between 50,000 and 80,000 people if 
 human consumption, with 30 to 50 workers.
 
 
-#### 6.4 Minimum Amount Requested and Breakdown
+#### 5.4 Minimum Amount Requested and Breakdown
 
 $150,000 is requested for twelve months, corresponding to Phase 1 complete and the start of Phase 2.
 
@@ -873,7 +759,7 @@ network assumptions. The estimated timeframe is one year.
 | **Total** | **3,200,000** | |
 
 
-#### 6.5 Measurable Milestones
+#### 5.5 Measurable Milestones
 
 | Phase | Month | Verifiable Milestone |
 |-------|-------|----------------------|
@@ -991,40 +877,6 @@ continue to communicate with each other.
    FOOD DELIVERED
    (not sold — it is a right, not merchandise)
 ```
-#### A.4 Initial Integration with World Mobile
-```
-   ┌─────────────────────┐         ┌──────────────────────┐
-   │   WORLD MOBILE      │         │      ADAMAS          │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │ AirNodes  │──────┼─────────┼──►│ Users        │   │
-   │  │           │  connectivity  │   │ with access  │   │
-   │  └───────────┘      │         │   └──────────────┘   │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │ EarthNodes│──────┼─────────┼──►│ Cache        │   │
-   │  │           │   aux computing│   │ Indexing     │   │
-   │  └───────────┘      │         │   └──────────────┘   │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │  WMTX     │──────┼─────────┼──►│ Treasury     │   │
-   │  │           │    possible    │   │ (reserves)   │   │
-   │  └───────────┘      │ purchase│   └──────────────┘   │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │ Users     │◄─────┼─────────┼───│ Mesh network │   │
-   │  │ without   │   autonomous   │   │ LoRa + HaLow │   │
-   │  │ coverage  │   communication│   └──────────────┘   │
-   │  └───────────┘      │         │                      │
-   └─────────────────────┘         └──────────────────────┘
-```
-* No bridges between ledgers*
-
-* No cross-validation*
-
-* No delegated custody*
-
-* Each network functions without the other... but together they work much better.*
 
 <br>
 <br>
