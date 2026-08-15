@@ -3,14 +3,14 @@
 coordinación autónoma y las redes descentralizadas.**
 
 #### **Fundemos la web4:**
-
+## Documento de aspectos técnicos
 <br>
 .
 <br>
 <br>
 <br>
 
-## Postulación a financiamiento de World Mobile Chain
+
 ## Resumen ejecutivo
 
 ### El problema
@@ -183,7 +183,7 @@ La cuenta de la ganadería:
 | Total consumido por animales | 5.550 kcal |
 | Devuelto como carne, lácteos y pescado | 594 kcal |
 | Tasa de conversión | 12% |
-	
+        
 Y el dato sobre proteína, que es el más contundente del estudio:
 
 | Concepto | Valor |
@@ -601,135 +601,8 @@ perdió 285 millones tras seis meses de ingeniería social (Blockonomi, 2025; CO
 <br>
 <br>
 
-### 4. Integración con World Mobile
 
-#### AirNodes como nodos de acceso.
-
-Proveen conectividad a usuarios de Adamas en zonas con cobertura. No hay dependencia
-técnica: es uso compartido de infraestructura de transporte.
-
-Funciones auxiliares posibles, con condición estricta:
-
-| Función | Condición |
-|---------|-----------|
-| Caché de contenido | Es caché, no custodia. El contenido puede perderse sin afectar al sistema. |
-| Punto de entrada a la red | Da acceso a quien no tiene nodo propio. No participa en la malla. |
-| Indexación de contenido | Acelera la búsqueda. Es mejora, no dependencia. |
-
-La distinción entre caché y custodia es la que hace posible esta integración. El caché
-acelera el acceso a contenido que existe en otro lado; la custodia es responsabilidad de que
-ese contenido exista. Los nodos de Adamas custodian; los AirNodes pueden acelerar.
-
-Sobre la implementación técnica y su condición de seguridad. Si un operador de AirNode desea
-ejecutar funciones auxiliares, lo haría mediante un componente ligero de solo lectura y sin
-claves. No maneja secretos, no firma nada, no decide nada. Sirve contenido previamente
-firmado, cuya integridad verifica el receptor contra su huella criptográfica. Si estuviera
-comprometido, serviría contenido inválido que el receptor descarta — no puede inyectar
-contenido válido porque no tiene con qué firmarlo. Esa condición es la que hace aceptable
-que software relacionado con Adamas corra en hardware que no controlamos.
-
-
-#### Sobre EarthNodes:
-
-Funciones acotadas, sin custodia ni validación.
-
-No es posible usarlos para custodia de archivo o para validación.
-
-Los nodos de archivo de Adamas custodian el registro histórico del sistema — actas,
-decisiones, identidades — mediante codificación de borrado entre nodos de la propia red, con
-verificación criptográfica periódica de que cada custodio conserva su fragmento. Delegar eso
-en infraestructura de terceros rompe la arquitectura, porque la verificación de custodia
-pierde sentido si quien custodia no funciona integradamente con el sistema. La autonomía de
-las comunidades de Adamas pasa por la autonomía en su infraestructura; la posible
-incompatibilidad en infraestructura y arquitectura de programación también son un tema por
-analizar.
-
-La validación se descarta por una razón distinta: concentrar la verificación en un conjunto
-de nodos externos crea exactamente el punto único de compromiso que el diseño evita. El mayor
-incidente de seguridad del sector en 2026 ocurrió por un esquema de verificación con quórum
-insuficiente.
-
-
-Lo que sí pueden hacer, bajo la misma condición de no criticidad:
-
-| Función | Condición |
-|---------|-----------|
-| Cómputo para tareas acotadas | Que no involucre datos sensibles ni claves. Procesamiento de traducción, verificación de firmas en lote, indexación. |
-| Almacenamiento temporal | Caché, nunca custodia permanente. |
-| Punto de entrada a la red | Acceso para quien no tiene nodo propio. |
-
-Su capacidad de cómputo es mayor que la de un AirNode, lo que los hace adecuados para tareas
-que requieren procesamiento y no responsabilidad. Las integraciones con EarthNodes están en
-análisis y del mismo modo, se evaluarán funciones que Adamas pueda cumplir para ellos, de
-manera que se incite a la participación colectiva.
-
-#### Sobre WMTX
-
-Lo que puede ofrecerse: que el tesoro de Adamas acepte WMTX como forma de compra o aporte, con
-tasa preferencial de acreditación en moneda social. Eso da a WMTX uso real fuera de su propio
-ecosistema, sin exponer ninguno de los dos registros. Por la naturaleza misma de la moneda
-social, y por arquitectura económica no podemos ofrecer integración de registros ni puentes.
-
-#### Lo que Adamas ofrece a los operadores de nodos
-
-Certificado verificable de contribución. Un operador de AirNode o EarthNode que aporte
-capacidad a la red Adamas puede obtener una acreditación verificable como nodo de apoyo
-comunitario. Es reconocimiento público y trazable, no un activo ni un derecho. No otorga
-gobernanza ni recompensa económica, pero queda registro de haber participado en los comienzos
-de una red destinada al bienestar ecosocial.
-
-Pueden residir en los registros distribuidos y no en el registro encadenado. Aquel segundo registro
-se mantiene deliberadamente mínimo — identidad raíz, tesoro, resultados globales, anclajes de
-integridad — y agregar certificados le sumaría carga sin necesidad. En los registros
-distribuidos sigue siendo verificable por cualquiera.
-
-Acceso a la plataforma como cualquier participante. Un operador puede usar foros, informarse
-y participar del circuito como cualquier persona.
-
-Lo que no se ofrece, y conviene declararlo con su fundamento:
-
-- Voto en plataforma. La participación en decisiones corresponde a personas verificadas, no
-  solamente a alguien que opera infraestructura. Un nodo no es una persona, pero eso no resta
-  que dichas personas puedan integrarse en su comunidad o en Adamas.
-
-- Recompensa en moneda social. La moneda social remunera participación en el circuito
-  productivo. Pagarla a nodos externos rompería el modelo.
-
-
-#### Lo que se ofrece a World Mobile: la reciprocidad: acceso a la malla de Adamas
-
-Los usuarios de World Mobile podrían acceder a la red en malla de Adamas donde no haya
-cobertura de AirNode, o donde sea deficiente. Es un intercambio de infraestructura de
-naturalezas complementarias: World Mobile provee internet de alta velocidad donde su red
-llega; Adamas provee comunicación autónoma de largo alcance donde ninguna red llega.
-
-| Aspecto | Condición |
-|---------|-----------|
-| Alcance | Mensajería de baja velocidad — telegramas, texto, alertas. |
-| Prioridad | Los participantes de la comunidad tienen precedencia; el acceso externo usa capacidad remanente. |
-| Sin exposición económica | El acceso a la red no implica acceso a la moneda social ni a la gobernanza. |
-| Sin dependencia | La malla existe y funciona con independencia de esta apertura. |
-
-Sobre la prioridad, y es una condición técnica y no una preferencia: las bandas de radio de
-largo alcance tienen límites regulatorios de ciclo de trabajo — cuánto tiempo puede transmitir
-un dispositivo por hora, según jurisdicción. Abrir la malla sin acotar podría saturar el
-espectro disponible para las comunidades, que es el uso que la malla existe para servir. El
-acceso externo de baja prioridad conserva la oferta sin comprometer la función principal: la
-autoorganización de las personas en el territorio, tal cosa es lo que justifica este proyecto.
-
-A futuro, para Adamas es una necesidad de arquitectura ylogística el invertir en antenas y fibra
-descentralizada para conectar zonas con dificultad de enlace aéreo, de manera auxiliar y
-custodiadas por nodos, añadiendo velocidad y resiliencia a la red. También es imperante
-volver lo suficientemente densas las redes tipo mesh de los distintos grados.
-#### Lo que se ofrece a World Mobile: la reciprocidad: acceso a la malla de Adamas
-
-<br>
-.
-<br>
-<br>
-<br> 
-
-#### 5. Hoja de ruta
+### 4. Hoja de ruta
 
 Fase 1 — seis meses. Prototipo funcional de gobernanza asamblearia y registro de moneda
 social. Nodos LoRa operativos en una comunidad piloto. Verificación en terreno del alcance
@@ -756,9 +629,9 @@ inmovilizada. Debe ser un par campo-ciudad desde el inicio.
 <br>
 <br>
 
-### 6. Presupuestos e hitos
+### 5. Presupuestos e hitos
 
-#### 6.1 Costo anual de la plataforma en etapa inicial operativa
+#### 5.1 Costo anual de la plataforma en etapa inicial operativa
 
 *Todos los componentes son supuestos de diseño y no datos de operación. Las compensaciones
 están calculadas al mínimo de subsistencia.*
@@ -775,7 +648,7 @@ están calculadas al mínimo de subsistencia.*
 El desarrollo es la mitad del costo y no escala con participantes — cuesta lo mismo con 600
 usuarios que con 60.000.
 
-#### 6.2 Autosuficiencia
+#### 5.2 Autosuficiencia
 
 | Paso | Cálculo | Resultado |
 |------|---------|-----------|
@@ -791,7 +664,7 @@ comisión baja y circulación lenta — hacen falta unas 2.000.
 El supuesto más frágil son las cinco vueltas de circulación, que dependen de que exista
 oferta interna. En etapa inicial habrá poco.
 
-#### 6.3 Capital del circuito alimentario
+#### 5.3 Capital del circuito alimentario
 
 | Modelo | Capital | Por persona alimentada, una vez |
 |--------|---------|--------------------------------|
@@ -804,7 +677,7 @@ renta a quien tiene la tierra.
 Referencia: una operación de 10.000 hectáreas alimenta a entre 50.000 y 80.000 personas si su
 producción se destina a consumo humano directo, con 30 a 50 trabajadores.
 
-#### 6.4 Monto mínimo solicitado y su desglose
+#### 5.4 Monto mínimo solicitado y su desglose
 
 Se solicita 150.000 dólares para doce meses, correspondientes a la Fase 1 completa y el
 arranque de la Fase 2.
@@ -941,7 +814,7 @@ efectos se compensan aproximadamente en este horizonte.
 | **Total** | **3.200.000** | |
 
 
-#### 6.5 Hitos medibles
+#### 5.5 Hitos medibles
 
 | Fase | Mes | Hito verificable |
 |------|-----|------------------|
@@ -1210,83 +1083,83 @@ Proteína:
 
 ### --- Glosario
 
-AdmsDID --- 	Sistema de identidad descentralizada del proyecto.
-				Permite demostrar que se es una sola persona sin revelar cuál y sin
-				recurrir a credenciales estatales.		
+AdmsDID ---     Sistema de identidad descentralizada del proyecto.
+                                Permite demostrar que se es una sola persona sin revelar cuál y sin
+                                recurrir a credenciales estatales.              
 
-AirNode --- 	Punto de acceso a internet de la red World Mobile.
+AirNode ---     Punto de acceso a internet de la red World Mobile.
 
 BATMAN-adv ---  Protocolo de enrutamiento en malla que opera en capa
-				2 y se repara automáticamente ante caída de nodos. En producción durante
-				más de una década.
+                                2 y se repara automáticamente ante caída de nodos. En producción durante
+                                más de una década.
 
 Codificación de borrado --- Técnica que divide un archivo en
-							fragmentos con redundancia matemática, de modo que baste recuperar una
-							fracción para reconstruirlo íntegro. Más eficiente que replicar copias
-							completas.
+                                                        fragmentos con redundancia matemática, de modo que baste recuperar una
+                                                        fracción para reconstruirlo íntegro. Más eficiente que replicar copias
+                                                        completas.
 
 CRDT --- *Conflict-free Replicated Data Type*. Estructura de datos
-		 que permite que múltiples copias converjan al mismo estado sin necesidad
-		 de coordinación ni consenso. Es lo que permite operar en red
-	     particionada.
+                 que permite que múltiples copias converjan al mismo estado sin necesidad
+                 de coordinación ni consenso. Es lo que permite operar en red
+             particionada.
 
 Custodio --- Persona o entidad que conserva un fragmento de clave
-		     criptográfica. Ninguno puede firmar solo.
+                     criptográfica. Ninguno puede firmar solo.
 
 DID --- *Decentralized Identifier*. Identificador que no depende de
-		 una autoridad emisora.
+                 una autoridad emisora.
 
 EarthNode --- Nodo de validación y coordinación de la red World
-			  Mobile.
+                          Mobile.
 
 Firma de umbral --- Esquema donde la clave se reparte entre
-					múltiples custodios y se requiere un número mínimo de ellos
-					para firmar. La clave completa nunca existe en ningún lugar.
+                                        múltiples custodios y se requiere un número mínimo de ellos
+                                        para firmar. La clave completa nunca existe en ningún lugar.
 
 Janus --- Protocolo de deduplicación biométrica que preserva la
-		  privacidad. Permite comparar un registro contra un conjunto sin que
-		  ninguna parte pueda leer su contenido; devuelve un solo bit.
+                  privacidad. Permite comparar un registro contra un conjunto sin que
+                  ninguna parte pueda leer su contenido; devuelve un solo bit.
 
 LoRa --- Tecnología de radio de largo alcance y muy baja tasa de
-		 transmisión. Adecuada para mensajes cortos a decenas de kilómetros con
-		 consumo mínimo.
+                 transmisión. Adecuada para mensajes cortos a decenas de kilómetros con
+                 consumo mínimo.
 
 Moneda Social = MS--- Unidad de intercambio del circuito interno.
-					  No cotiza, no es adquirible fuera del sistema, no se multiplica sola, y
-					  no compra lo esencial.
+                                          No cotiza, no es adquirible fuera del sistema, no se multiplica sola, y
+                                          no compra lo esencial.
 
 Nulificador --- Valor derivado de una identidad que impide actuar
-				dos veces en un mismo ámbito sin revelar de quién se trata ni permitir
-				vincular ámbitos distintos.
+                                dos veces en un mismo ámbito sin revelar de quién se trata ni permitir
+                                vincular ámbitos distintos.
 
 Piso mínimo por hora --- Valor por debajo del cual ninguna hora de
-						 trabajo puede acordarse dentro del sistema.
+                                                 trabajo puede acordarse dentro del sistema.
 
 Prueba de conocimiento cero (ZK) - Método criptográfico que
-								   permite demostrar que se cumple una condición sin revelar la información
-								   que la satisface.
+                                                                   permite demostrar que se cumple una condición sin revelar la información
+                                                                   que la satisface.
 
 Registro encadenado - Registro ordenado donde cada bloque
-					  referencia al anterior por su huella criptográfica, firmado por un
-					  umbral de custodios. No es una cadena de bloques con consenso
-					  económico: no hay minería, ni token que sostenga la seguridad, ni
-					  contratos programables.
+                                          referencia al anterior por su huella criptográfica, firmado por un
+                                          umbral de custodios. No es una cadena de bloques con consenso
+                                          económico: no hay minería, ni token que sostenga la seguridad, ni
+                                          contratos programables.
 
 Supernodo comunitario - Nodo con mayor capacidad de almacenamiento
-						y cómputo que acelera la red de una zona. Es jerarquía blanda: su caída
-						no impide el funcionamiento.
+                                                y cómputo que acelera la red de una zona. Es jerarquía blanda: su caída
+                                                no impide el funcionamiento.
 
 Techo de aire - Mecanismo de límite a la acumulación. Quien excede
-				el umbral recibe avisos con plazo inversamente proporcional al monto; el
-				excedente inmóvil retorna al fondo para reinversión trazable. El margen
-				de riesgo lo pone el detector según la economía.
+                                el umbral recibe avisos con plazo inversamente proporcional al monto; el
+                                excedente inmóvil retorna al fondo para reinversión trazable. El margen
+                                de riesgo lo pone el detector según la economía.
 
 Tesoro común -  Patrimonio sin dueño: tierra, infraestructura y
-				cooperativas de destinación social. Opera como puente hacia el exterior
-				comprando y vendiendo, y acredita moneda social adentro.
+                                cooperativas de destinación social. Opera como puente hacia el exterior
+                                comprando y vendiendo, y acredita moneda social adentro.
 
 Wi-Fi HaLow --- Variante de Wi-Fi en banda inferior a 1 GHz, con
-				mayor alcance y menor tasa que el Wi-Fi convencional.
+                                mayor alcance y menor tasa que el Wi-Fi convencional.
 
 <br>
 .
