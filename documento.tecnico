@@ -943,45 +943,6 @@ funcionamiento. Si un supernodo cae, los nodos deacceso siguen comunicándose en
    (no vendido — es derecho, no mercancía)
 ```
 
-```
-### A.4 Integración inicial con World Mobile
-
-
-   ┌─────────────────────┐         ┌──────────────────────┐
-   │   WORLD MOBILE      │         │      ADAMAS          │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │ AirNodes  │──────┼─────────┼──►│ Usuarios     │   │
-   │  │           │ conectividad   │   │ con acceso   │   │
-   │  └───────────┘      │         │   └──────────────┘   │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │ EarthNodes│──────┼─────────┼──►│ Caché        │   │
-   │  │           │ cómputo auxiliar│  │ Indexación   │   │
-   │  └───────────┘      │         │   └──────────────┘   │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │  WMTX     │──────┼─────────┼──►│ Tesoro       │   │
-   │  │           │  compra posible│   │ (reservas)   │   │
-   │  └───────────┘      │         │   └──────────────┘   │
-   │                     │         │                      │
-   │  ┌───────────┐      │         │   ┌──────────────┐   │
-   │  │ Usuarios  │◄─────┼─────────┼───│ Red en malla │   │
-   │  │ sin       │ comunicación   │   │ LoRa + HaLow │   │
-   │  │ cobertura │ autónoma       │   └──────────────┘   │
-   │  └───────────┘      │         │                      │
-   └─────────────────────┘         └──────────────────────┘
-
-* Sin puentes entre registros*
-
-* Sin validación cruzada*
-
-* Sin custodia delegada*
-```
-
-
-* Cada red funciona sin la otra...pero juntas funcionan mucho mejor.*
-
 
 <br>
 <br> 
